@@ -1,0 +1,13 @@
+prefix=/Users/mohitverma/Documents/End-to-end ML/venv
+exec_prefix=/Users/mohitverma/Documents/End-to-end ML/venv
+libdir=/Users/mohitverma/Documents/End-to-end ML/venv/lib
+sharedlibdir=/Users/mohitverma/Documents/End-to-end ML/venv/lib
+includedir=/Users/mohitverma/Documents/End-to-end ML/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
